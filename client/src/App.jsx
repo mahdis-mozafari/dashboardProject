@@ -4,12 +4,14 @@ import About from './pages/About'
 import Signin from './pages/Signin'
 import SignUp from './pages/SignUp'
 import Dashboard from './pages/Dashboard'
-import Project from './pages/Project'
+import Project from './pages/Projects'
+import Header from './component/Header'
 
 function App() {
 
   return (
     <BrowserRouter>
+    <Header/>
     <Routes>
 
       <Route path='/' element={<Home/>}/>
