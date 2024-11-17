@@ -6,6 +6,7 @@ import SignUp from './pages/SignUp'
 import Dashboard from './pages/Dashboard'
 import Project from './pages/Projects'
 import Header from './component/Header'
+import FooterCom from './component/footer'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Route path='/projects' element={<Project/>}/>
 
     </Routes>
+    <FooterCom/>
     </BrowserRouter>
  
   )
